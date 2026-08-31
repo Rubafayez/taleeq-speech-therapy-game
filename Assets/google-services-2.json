@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743018650134",
+    "project_id": "taleeq-348d6",
+    "storage_bucket": "taleeq-348d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743018650134:android:c117ffe821cb3ffa9ab337",
+        "android_client_info": {
+          "package_name": "com.UnityTechnologies.com.unity.template.urpblank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_GOOGLE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

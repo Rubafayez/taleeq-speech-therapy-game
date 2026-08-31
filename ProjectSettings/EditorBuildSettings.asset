@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WhoUare.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Register 2.unity
+    guid: 236ff214f7259ec43b2d7912e5bbe92c
+  - enabled: 1
+    path: Assets/Scenes/login.unity
+    guid: 9e9bb9e122ebc42ada112d30bcd0a99e
+  - enabled: 1
+    path: Assets/Scenes/ChildReg.unity
+    guid: c34a0b44e16c44cf996250fdef50900c
+  - enabled: 1
+    path: Assets/Scenes/PIN.unity
+    guid: 80a31a40e7500478d9aa8b64e3d529b7
+  - enabled: 1
+    path: Assets/Scenes/map.unity
+    guid: ae8de1881a1077c429c3e80a4e6a874b
+  - enabled: 1
+    path: Assets/Scenes/Confirm identity in PIN change.unity
+    guid: aa3bcdebba1e44f74a40bf1f0d1b0e51
+  - enabled: 1
+    path: Assets/Scenes/editPIN.unity
+    guid: 48ec686b3f3704ea9b1554586fb9fdfd
+  - enabled: 1
+    path: Assets/Scenes/PIN in profile.unity
+    guid: edec76e3c1bea47a89171c986a6ddbaf
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

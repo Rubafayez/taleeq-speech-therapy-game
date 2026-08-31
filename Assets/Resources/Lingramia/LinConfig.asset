@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e2296508b33e14b830b29742382218, type: 3}
+  m_Name: LinConfig
+  m_EditorClassIdentifier: 
+  KeepManagerAlive: 0
+  EnableDebugging: 0
+  LocalizationSystem:
+    HybridKey: 1
+    LocBooks:
+    - {fileID: 11400000, guid: b403d7c9d40ab429bbc74193451e0f56, type: 2}
+    - {fileID: 11400000, guid: 50e8fe7bfdf0d449faa9e70d0cab5811, type: 2}
+    - {fileID: 11400000, guid: b145ab90c35ad1143807a0727bcb412b, type: 2}
+    TextStyleCache:
+    - {fileID: 11400000, guid: 41c31645740e04f53a7bbec057a380ea, type: 2}
+    - {fileID: 11400000, guid: 667aefe1712b8924e87e20ad7d416a23, type: 2}
+    - {fileID: 11400000, guid: c7d86e6a13d3e4e46b1a31f2a151ef8f, type: 2}
+    - {fileID: 11400000, guid: cf673523c9ef76346bf9b975bf0f9e37, type: 2}
+    - {fileID: 11400000, guid: 0adec8624b7a8487fb7fdcdd0e41e059, type: 2}
+    - {fileID: 11400000, guid: 54ca44858b45b4bedab884922253245d, type: 2}
+    - {fileID: 11400000, guid: 1638309cb7272ff44946a50a9ec92a0d, type: 2}
+    DefaultStartingLanguageCode: en
+    LanguageOptionSaveKey: language
+    AutoUpdateLocbooks: 1
+    AutoRefreshCacheInRuntime: 1

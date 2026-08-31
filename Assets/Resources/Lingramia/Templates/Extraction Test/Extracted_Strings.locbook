@@ -1,0 +1,73 @@
+{
+    "pages": [
+        {
+            "aboutPage": "Quest title and description",
+            "pageId": "quest_Testing Quest_info",
+            "pageFiles": [
+                {
+                    "key": "quest_Testing Quest_title",
+                    "originalValue": "The Hero's Journey",
+                    "variants": []
+                },
+                {
+                    "key": "quest_Testing Quest_description",
+                    "originalValue": "Embark on an epic adventure to save the kingdom.",
+                    "variants": []
+                }
+            ]
+        },
+        {
+            "aboutPage": "Quest objectives that need to be completed",
+            "pageId": "quest_Testing Quest_objectives",
+            "pageFiles": [
+                {
+                    "key": "quest_Testing Quest_objective_0",
+                    "originalValue": "Find the ancient sword",
+                    "variants": []
+                },
+                {
+                    "key": "quest_Testing Quest_objective_1",
+                    "originalValue": "Defeat the dragon",
+                    "variants": []
+                },
+                {
+                    "key": "quest_Testing Quest_objective_2",
+                    "originalValue": "Return to the castle",
+                    "variants": []
+                }
+            ]
+        },
+        {
+            "aboutPage": "Rewards description text",
+            "pageId": "quest_Testing Quest_rewards",
+            "pageFiles": [
+                {
+                    "key": "quest_Testing Quest_reward_0",
+                    "originalValue": "1000 Gold",
+                    "variants": []
+                },
+                {
+                    "key": "quest_Testing Quest_reward_1",
+                    "originalValue": "Legendary Armor",
+                    "variants": []
+                }
+            ]
+        },
+        {
+            "aboutPage": "Quest-related dialogue lines",
+            "pageId": "quest_Testing Quest_dialogue",
+            "pageFiles": [
+                {
+                    "key": "quest_Testing Quest_dialogue_start",
+                    "originalValue": "Please, brave hero! Only you can save us!",
+                    "variants": []
+                },
+                {
+                    "key": "quest_Testing Quest_dialogue_complete",
+                    "originalValue": "You did it! The kingdom is saved!",
+                    "variants": []
+                }
+            ]
+        }
+    ]
+}

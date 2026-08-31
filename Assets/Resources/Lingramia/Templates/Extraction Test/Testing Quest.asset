@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0647d35dc43edb47996c3ee861e14c7, type: 3}
+  m_Name: Testing Quest
+  m_EditorClassIdentifier: 
+  questTitle: The Hero's Journey
+  questDescription: Embark on an epic adventure to save the kingdom.
+  objectives:
+  - Find the ancient sword
+  - Defeat the dragon
+  - Return to the castle
+  rewardDescriptions:
+  - 1000 Gold
+  - Legendary Armor
+  questGiverDialogue: Please, brave hero! Only you can save us!
+  completionDialogue: You did it! The kingdom is saved!

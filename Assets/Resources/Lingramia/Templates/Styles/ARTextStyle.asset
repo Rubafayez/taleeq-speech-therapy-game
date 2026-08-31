@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d5d456d29ac4cbe98768c401857815, type: 3}
+  m_Name: ARTextStyle
+  m_EditorClassIdentifier: 
+  languageCode: ar
+  paragraphStyle: 
+  font: {fileID: 11400000, guid: ded512474392a28419c2c79f16d1dc82, type: 2}
+  materialOverride: {fileID: 0}
+  formattingOptions: 64
+  enableRTL: 1
+  enableArabicFormatting: 1

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc60cef16fb84a239e422cb0e81cb8d, type: 3}
+  m_Name: Extracted_Strings
+  m_EditorClassIdentifier: 
+  locbookFile: {fileID: 102900000, guid: 09204d89f764f4ec79e29fef269367ea, type: 3}
+  pages:
+  - pageId: quest_Testing Quest_info
+    aboutPage: Quest title and description
+    entries:
+    - key: quest_Testing Quest_title
+      originalValue: The Hero's Journey
+      variants: []
+      aliases: []
+    - key: quest_Testing Quest_description
+      originalValue: Embark on an epic adventure to save the kingdom.
+      variants: []
+      aliases: []
+  - pageId: quest_Testing Quest_objectives
+    aboutPage: Quest objectives that need to be completed
+    entries:
+    - key: quest_Testing Quest_objective_0
+      originalValue: Find the ancient sword
+      variants: []
+      aliases: []
+    - key: quest_Testing Quest_objective_1
+      originalValue: Defeat the dragon
+      variants: []
+      aliases: []
+    - key: quest_Testing Quest_objective_2
+      originalValue: Return to the castle
+      variants: []
+      aliases: []
+  - pageId: quest_Testing Quest_rewards
+    aboutPage: Rewards description text
+    entries:
+    - key: quest_Testing Quest_reward_0
+      originalValue: 1000 Gold
+      variants: []
+      aliases: []
+    - key: quest_Testing Quest_reward_1
+      originalValue: Legendary Armor
+      variants: []
+      aliases: []
+  - pageId: quest_Testing Quest_dialogue
+    aboutPage: Quest-related dialogue lines
+    entries:
+    - key: quest_Testing Quest_dialogue_start
+      originalValue: Please, brave hero! Only you can save us!
+      variants: []
+      aliases: []
+    - key: quest_Testing Quest_dialogue_complete
+      originalValue: You did it! The kingdom is saved!
+      variants: []
+      aliases: []
+  audioPages: []
+  imagePages: []
+  assetPages: []

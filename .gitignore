@@ -1,0 +1,46 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Unity build artefacts
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Firebase — restore the SDK via the Package Manager
+Assets/Firebase/
+Assets/Firebase.meta
+Assets/Plugins/iOS/Firebase/
+Assets/Plugins/tvOS/Firebase/
+Assets/ExternalDependencyManager/
+Assets/ExternalDependencyManager.meta
+
+# Secrets — never commit real Firebase configuration
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.jks
+
+# OS
+.DS_Store

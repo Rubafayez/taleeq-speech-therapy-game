@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc60cef16fb84a239e422cb0e81cb8d, type: 3}
+  m_Name: Locbook Sample
+  m_EditorClassIdentifier: 
+  locbookFile: {fileID: 102900000, guid: aa163d4eeae8d5f40b029178cf2012de, type: 3}
+  pages:
+  - pageId: General Dialogues
+    aboutPage: Common phrases and expressions used in dialogue scenes.
+    entries:
+    - key: greeting_hello
+      originalValue: Hello there, this is a (UI) test with [{0}] arguments and [{1}]
+        awesome stuff!
+      variants:
+      - languageCode: en
+        value: Hello there, this is a (UI) test with [{0}] arguments and [{1}] awesome
+          stuff!
+      - languageCode: jp
+        value: "\u3053\u3093\u306B\u3061\u306F\u3001\u3053\u308C\u306F[{0}]\u500B\u306E\u5F15\u6570\u3068[{1}]\u500B\u306E\u7D20\u6674\u3089\u3057\u3044\u3082\u306E\u3092\u6301\u3064(UI)\u30C6\u30B9\u30C8\u3067\u3059\uFF01"
+      - languageCode: ar
+        value: "\u0645\u0631\u062D\u0628\u064B\u0627\u060C \u0647\u0630\u0627 \u0627\u062E\u062A\u0628\u0627\u0631
+          (\u0648\u0627\u062C\u0647\u0629 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645)
+          \u0628\u0640 [{0}] \u0648\u0633\u064A\u0637\u0627\u062A \u0648 [{1}] \u0623\u0634\u064A\u0627\u0621
+          \u0631\u0627\u0626\u0639\u0629!"
+      aliases:
+      - Hello there with arguments
+    - key: farewell_goodbye
+      originalValue: Goodbye and take care.
+      variants:
+      - languageCode: en
+        value: Goodbye and take care.
+      - languageCode: jp
+        value: "\u3055\u3088\u3046\u306A\u3089\u3001\u304A\u5143\u6C17\u3067\u3002"
+      - languageCode: ar
+        value: "\u0648\u062F\u0627\u0639\u0627\u064B \u0648\u0627\u0639\u062A\u0646\u0650
+          \u0628\u0646\u0641\u0633\u0643."
+      aliases: []
+    - key: thank_you
+      originalValue: Thank you for your help!
+      variants:
+      - languageCode: en
+        value: Thank you for your help!
+      - languageCode: jp
+        value: "\u624B\u4F1D\u3063\u3066\u304F\u308C\u3066\u3042\u308A\u304C\u3068\u3046\uFF01"
+      - languageCode: ar
+        value: "\u0634\u0643\u0631\u0627\u064B \u0644\u0645\u0633\u0627\u0639\u062F\u062A\u0643!"
+      aliases: []
+    - key: arg1_test
+      originalValue: 'Some Money: 5000'
+      variants:
+      - languageCode: en
+        value: 'Some Money: 5000'
+      - languageCode: jp
+        value: "\u304A\u91D1: 5000"
+      - languageCode: ar
+        value: "\u0628\u0639\u0636 \u0627\u0644\u0645\u0627\u0644: 5000"
+      aliases: []
+    - key: arg2_test
+      originalValue: 'Little Money: 50.00 Riyals'
+      variants:
+      - languageCode: en
+        value: 'Little Money: 50.00 Riyals'
+      - languageCode: jp
+        value: "\u5C11\u984D: 50.00\u30EA\u30E4\u30EB"
+      - languageCode: ar
+        value: "\u0645\u0628\u0644\u063A \u0628\u0633\u064A\u0637: 50,00 \u0631\u064A\u0627\u0644\u064B\u0627"
+      aliases: []
+  - pageId: System Messages
+    aboutPage: In-game system prompts and notifications.
+    entries:
+    - key: saving_progress
+      originalValue: Saving progress...
+      variants:
+      - languageCode: en
+        value: Saving progress...
+      - languageCode: jp
+        value: "\u9032\u884C\u72B6\u6CC1\u3092\u4FDD\u5B58\u4E2D..."
+      - languageCode: ar
+        value: "\u062C\u0627\u0631\u064A \u062D\u0641\u0638 \u0627\u0644\u062A\u0642\u062F\u0645..."
+      aliases: []
+    - key: connection_lost
+      originalValue: Connection lost.
+      variants:
+      - languageCode: en
+        value: Connection lost.
+      - languageCode: jp
+        value: "\u63A5\u7D9A\u304C\u5931\u308F\u308C\u307E\u3057\u305F\u3002"
+      - languageCode: ar
+        value: "\u062A\u0645 \u0641\u0642\u062F \u0627\u0644\u0627\u062A\u0635\u0627\u0644."
+      aliases: []
+    - key: achievement_unlocked
+      originalValue: Achievement unlocked!
+      variants:
+      - languageCode: en
+        value: Achievement unlocked!
+      - languageCode: jp
+        value: "\u5B9F\u7E3E\u3092\u89E3\u9664\u3057\u307E\u3057\u305F\uFF01"
+      - languageCode: ar
+        value: "\u062A\u0645 \u0641\u062A\u062D \u0627\u0644\u0625\u0646\u062C\u0627\u0632!"
+      aliases: []
+  - pageId: Story Narration
+    aboutPage: Sample lines used for narrative testing.
+    entries:
+    - key: moonlight_scene
+      originalValue: The moon shone brightly over the forest.
+      variants:
+      - languageCode: en
+        value: The moon shone brightly over the forest.
+      - languageCode: jp
+        value: "\u6708\u304C\u68EE\u306E\u4E0A\u306B\u660E\u308B\u304F\u8F1D\u3044\u3066\u3044\u305F\u3002"
+      - languageCode: ar
+        value: "\u062A\u0623\u0644\u0651\u0642 \u0627\u0644\u0642\u0645\u0631 \u0628\u0633\u0637\u0648\u0639
+          \u0641\u0648\u0642 \u0627\u0644\u063A\u0627\u0628\u0629."
+      aliases: []
+    - key: hero_thoughts
+      originalValue: He wondered if he would ever return home.
+      variants:
+      - languageCode: en
+        value: He wondered if he would ever return home.
+      - languageCode: jp
+        value: "\u5F7C\u306F\u81EA\u5206\u304C\u5BB6\u306B\u5E30\u308C\u308B\u306E\u304B\u3069\u3046\u304B\u3092\u601D\u3063\u305F\u3002"
+      - languageCode: ar
+        value: "\u062A\u0633\u0627\u0621\u0644 \u0625\u0646 \u0643\u0627\u0646 \u0633\u064A\u0639\u0648\u062F
+          \u0625\u0644\u0649 \u0645\u0646\u0632\u0644\u0647 \u064A\u0648\u0645\u0627\u064B
+          \u0645\u0627."
+      aliases: []
+    - key: final_line
+      originalValue: And so, the story begins.
+      variants:
+      - languageCode: en
+        value: And so, the story begins.
+      - languageCode: jp
+        value: "\u305D\u3057\u3066\u3001\u7269\u8A9E\u304C\u59CB\u307E\u308B\u3002"
+      - languageCode: ar
+        value: "\u0648\u0647\u0643\u0630\u0627 \u062A\u0628\u062F\u0623 \u0627\u0644\u0642\u0635\u0629."
+      aliases: []
+  - pageId: Longform
+    aboutPage: Testing long text
+    entries:
+    - key: long_text_test
+      originalValue: Despite the chaos of the storm outside, with thunder roaring
+        like an ancient beast and rain thrashing against the windows in relentless
+        waves, she sat by the flickering candlelight, pen in hand, determined to
+        finish the final page of her story before dawn, believing that if she could
+        just write those last few words, she might finally capture the fleeting feeling
+        of peace that had eluded her for so many years.
+      variants:
+      - languageCode: en
+        value: Despite the chaos of the storm outside, with thunder roaring like
+          an ancient beast and rain thrashing against the windows in relentless waves,
+          she sat by the flickering candlelight, pen in hand, determined to finish
+          the final page of her story before dawn, believing that if she could just
+          write those last few words, she might finally capture the fleeting feeling
+          of peace that had eluded her for so many years.
+      - languageCode: jp
+        value: "\u5916\u306E\u5D50\u306E\u6DF7\u4E71\u306B\u3082\u304B\u304B\u308F\u3089\u305A\u3001\u96F7\u304C\u53E4\u4EE3\u306E\u7363\u306E\u3088\u3046\u306B\u8F5F\u304D\u3001\u96E8\u304C\u7A93\u306B\u5BB9\u8D66\u306A\u304F\u6253\u3061\u4ED8\u3051\u308B\u4E2D\u3001\u5F7C\u5973\u306F\u660E\u3051\u65B9\u307E\u3067\u306B\u7269\u8A9E\u306E\u6700\u5F8C\u306E\u30DA\u30FC\u30B8\u3092\u4ED5\u4E0A\u3052\u308B\u3053\u3068\u3092\u6C7A\u610F\u3057\u3001\u660E\u304B\u308A\u3092\u706F\u3057\u305F\u308D\u3046\u305D\u304F\u306E\u305D\u3070\u306B\u5EA7\u3063\u3066\u3001\u30DA\u30F3\u3092\u624B\u306B\u3057\u3066\u3044\u305F\u3002\u5F7C\u5973\u306F\u3001\u6700\u5F8C\u306E\u6570\u8A9E\u3092\u66F8\u304F\u3053\u3068\u304C\u3067\u304D\u308C\u3070\u3001\u3064\u3044\u306B\u6570\u5E74\u9593\u9003\u308C\u7D9A\u3051\u3066\u304D\u305F\u5E73\u7A4F\u306E\u511A\u3044\u611F\u899A\u3092\u6349\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3068\u4FE1\u3058\u3066\u3044\u305F\u3002"
+      - languageCode: ar
+        value: "\u0639\u0644\u0649 \u0627\u0644\u0631\u063A\u0645 \u0645\u0646 \u0641\u0648\u0636\u0649
+          \u0627\u0644\u0639\u0627\u0635\u0641\u0629 \u062E\u0627\u0631\u062C \u0627\u0644\u0645\u0646\u0632\u0644\u060C
+          \u0645\u0639 \u062F\u0648\u064A \u0627\u0644\u0631\u0639\u062F \u0643\u0627\u0644\u0648\u062D\u0634
+          \u0627\u0644\u0642\u062F\u064A\u0645 \u0648\u0627\u0644\u0645\u0637\u0631
+          \u064A\u0636\u0631\u0628 \u0627\u0644\u0646\u0648\u0627\u0641\u0630 \u0628\u0623\u0645\u0648\u0627\u062C
+          \u0644\u0627 \u062A\u0646\u062A\u0647\u064A\u060C \u062C\u0644\u0633\u062A
+          \u0628\u062C\u0627\u0646\u0628 \u0636\u0648\u0621 \u0627\u0644\u0634\u0645\u0639
+          \u0627\u0644\u0630\u064A \u064A\u062A\u0642\u0644\u0628\u060C \u0627\u0644\u0642\u0644\u0645
+          \u0641\u064A \u064A\u062F\u0647\u0627\u060C \u0639\u0627\u0632\u0645\u0629
+          \u0639\u0644\u0649 \u0625\u0646\u0647\u0627\u0621 \u0627\u0644\u0635\u0641\u062D\u0629
+          \u0627\u0644\u0646\u0647\u0627\u0626\u064A\u0629 \u0645\u0646 \u0642\u0635\u062A\u0647\u0627
+          \u0642\u0628\u0644 \u0627\u0644\u0641\u062C\u0631\u060C \u0645\u0639\u062A\u0642\u062F\u0629
+          \u0623\u0646\u0647 \u0625\u0630\u0627 \u0627\u0633\u062A\u0637\u0627\u0639\u062A
+          \u0641\u0642\u0637 \u0643\u062A\u0627\u0628\u0629 \u062A\u0644\u0643 \u0627\u0644\u0643\u0644\u0645\u0627\u062A
+          \u0627\u0644\u0623\u062E\u064A\u0631\u0629\u060C \u0631\u0628\u0645\u0627
+          \u062A\u0645\u0633\u0643 \u0623\u062E\u064A\u0631\u064B\u0627 \u0628\u0627\u0644\u0634\u0639\u0648\u0631
+          \u0627\u0644\u0639\u0627\u0628\u0631 \u0644\u0644\u0633\u0644\u0627\u0645
+          \u0627\u0644\u0630\u064A \u0647\u0631\u0628 \u0645\u0646\u0647\u0627 \u0644\u0633\u0646\u0648\u0627\u062A
+          \u0639\u062F\u064A\u062F\u0629."
+      - languageCode: zh
+        value: "\u5C3D\u7BA1\u5916\u9762\u98CE\u66B4\u8086\u8650\uFF0C\u96F7\u58F0\u5982\u53E4\u517D\u822C\u5486\u54EE\uFF0C\u96E8\u6C34\u65E0\u60C5\u5730\u731B\u70C8\u5730\u62CD\u6253\u7740\u7A97\u6237\uFF0C\u5979\u5374\u5750\u5728\u6447\u66F3\u7684\u70DB\u5149\u65C1\uFF0C\u624B\u6301\u7B14\uFF0C\u4E0B\u5B9A\u51B3\u5FC3\u5728\u9ECE\u660E\u524D\u5B8C\u6210\u5979\u6545\u4E8B\u7684\u6700\u540E\u4E00\u9875\uFF0C\u76F8\u4FE1\u53EA\u8981\u5979\u80FD\u5199\u4E0B\u90A3\u6700\u540E\u51E0\u4E2A\u5B57\uFF0C\u4E5F\u8BB8\u5979\u7EC8\u4E8E\u80FD\u6355\u6349\u5230\u591A\u5E74\u6765\u4E00\u76F4\u9003\u907F\u7684\u90A3\u79CD\u77ED\u6682\u7684\u5E73\u9759\u611F"
+      aliases:
+      - longtext
+  - pageId: Rich Text Testing
+    aboutPage: Rich Text testing to see if rich text tags work. Just for arabic or
+      RTL.
+    entries:
+    - key: rich_text_1
+      originalValue: Testing in Arabic
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: jp
+        value: 
+      - languageCode: ar
+        value: "\u0622\u0647\u060C \u0623\u0646\u062A \u0641\u062A\u0649 \u0646\u064A\u0648\u0646\u064A
+          \u0623\u0644\u0633\u062A \u0643\u0630\u0644\u0643\u061F\r\n\u0646\u0639\u0645\u060C
+          \u0636\u0648\u0621\u0643 \u0627\u0644\u0648\u062F\u0631\u064A \u0645\u062A\u0641\u0631\u062F\u060C\u060C
+          \u064A\u0628\u062F\u0648 \u0623\u0646 \u0623\u062D\u062F\u0643\u0645 \u0623\u062E\u064A\u0631\u0627
+          \u062A\u0645\u0643\u0646 \u0645\u0646 \u0627\u0644\u0648\u0635\u0648\u0644
+          \u0625\u0644\u0649 \u0647\u0630\u0647 \u0627\u0644\u0645\u0633\u0627\u0641\u0629.\r\n\u0648\"\u0623\u062D\u062F\u0643\u0645\"
+          \u0647\u0630\u0627 \u0635\u063A\u064A\u0631 \u0627\u0644\u062D\u062C\u0645..
+          \u0625\u0630\u0627 \u0644\u0642\u062F \u062E\u0633\u0631 \u0627\u0644\u0642\u0645\u0631
+          \u0627\u0644\u0648\u0631\u062F\u064A \u0637\u0627\u0642\u062A\u0647\u061F\r\n\u0622\u0647\u060C
+          \u0627\u0633\u062A\u0645\u064A\u062D\u0643 \u0639\u0630\u0631\u0627 \u0639\u0644\u0649
+          \u0627\u0641\u062A\u0642\u0627\u0631\u064A \u0644\u0644\u0628\u0627\u0642\u0629\u061B
+          <i>\u0623\u0646 \u0642\u062F \u0646\u0633\u064A\u062A \u0627\u0644\u062A\u0639\u0631\u064A\u0641
+          \u0639\u0646 \u0646\u0641\u0633\u064A..</i>\r\n\u0641\u064A \u062D\u0636\u0631\u062A\u0643:
+          \u0627\u0644\u0646\u0628\u064A\u0644 \"<color=yellow>Zeuthos</color>\"\u060C
+          \u0627\u0644\u0640\"<color=yellow>Quietus Dominus</color>\" \u0627\u0644\u062B\u0627\u0646\u064A
+          \u0639\u0634\u0631.\r\n\u0628\u0627\u0644\u0637\u0628\u0639.. \u0642\u062F
+          \u064A\u0643\u0648\u0646 \u0627\u0633\u0645\u0627 \u0639\u0635\u064A\u0627
+          \u0639\u0644\u0649 \u0627\u0644\u0644\u0633\u0627\u0646 <sprite=15>\u060C
+          \u0648\u0644\u0643\u0646 \u0641\u064A (\u0633\u062C\u0644\u0627\u062A \u0627\u0644\u0633\u0644\u0627\u0644\u0627\u062A)
+          <sprite=11> \u063A\u0627\u0644\u0628\u0627 \u0645\u0627 \u062A\u062A\u062C\u0630\u0631
+          \u062A\u0644\u0643 \u0627\u0644\u0623\u0633\u0627\u0645\u064A \u0648\u062A\u064F\u0643\u0631\u0651\u0645\r\n\u0648\u0625\u0630\u0627\u060C
+          \u0645\u0627\u0630\u0627 \u064A\u062C\u062F\u0631 \u0628\u064A \u062A\u0633\u0645\u064A\u062A\u0643\u061F\r\n\u0623\u062A\u0648\u0627\u0631\u0649
+          \u0625\u0644\u0649 \u0645\u0633\u0627\u0645\u0639\u0643 \u062E\u0628\u0631
+          <color=red>\u062C\u062F\u0643</color> \u0627\u0644\u0623\u0643\u0628\u0631\u061F
+          \u0623\u0646\u0647 \u0648\u0641\u064A <b>\u0627\u0646\u062A\u0643\u0627\u0633\u0629
+          \u0639\u0638\u064A\u0645\u0629</b>\u060C \u0642\u062F \u0623\u062D\u0627\u0644
+          \u0627\u0644\u0634\u0642 \u0627\u0644\u063A\u0631\u0628\u064A \u0625\u0644\u0649
+          \u062E\u0631\u0627\u0628\u061F\r\n<SPRITE=12>\r\n<i>Oh my god what is this
+          font issue</i>"
+      aliases:
+      - dd
+  - pageId: Prototype - UI
+    aboutPage: Misc
+    entries:
+    - key: signalia_proto_title
+      originalValue: Signalia Engine Prototype
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: jp
+        value: 
+      - languageCode: ar
+        value: 
+      aliases: []
+  - pageId: Prototype - Interactions
+    aboutPage: Misc
+    entries:
+    - key: interaction-talk
+      originalValue: Talk
+      variants:
+      - languageCode: en
+        value: 
+      - languageCode: jp
+        value: 
+      - languageCode: ar
+        value: 
+      aliases: []
+  audioPages: []
+  imagePages: []
+  assetPages: []
