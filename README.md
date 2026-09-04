@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Assets/UI-Image/Group%206.png" width="160" alt="Taleeq character">
+</p>
+
 <h1 align="center">Taleeq — طليق</h1>
 
 <p align="center">
