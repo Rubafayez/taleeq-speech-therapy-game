@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/UI-Image/Group%206.png" width="160" alt="Taleeq character">
+  <img src="taleeq-logo.jpg" width="360" alt="Taleeq logo">
 </p>
 
 <h1 align="center">Taleeq — طليق</h1>
